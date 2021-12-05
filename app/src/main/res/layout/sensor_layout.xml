@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/lbl_sensorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre sensor:"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:textColor="#a4a4a4"/>
+
+    <TextView
+        android:id="@+id/lbl_sensorNameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*sensorName*"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/lbl_sensorName"
+        android:textSize="16sp"
+        android:textColor="#a4a4a4"/>
+
+    <TextView
+        android:id="@+id/lbl_valueSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor:"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/lbl_sensorNameValue"
+        android:textSize="16sp"
+        android:textColor="#a4a4a4"/>
+
+    <TextView
+        android:id="@+id/lbl_valueSensorValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_valueSensor"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="*value*"
+        android:textSize="16sp"
+        android:textColor="#a4a4a4"/>
+
+
+</RelativeLayout>

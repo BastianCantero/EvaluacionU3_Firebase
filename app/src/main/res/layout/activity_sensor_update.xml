@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SensorUpdate"
+    android:orientation="vertical"
+    android:background="#2e2e2e">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre sensor:"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#b6b6b6"/>
+    <TextView
+        android:id="@+id/lblnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#b6b6b6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo sensor:"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:textColor="#b6b6b6"/>
+
+    <TextView
+        android:id="@+id/lbltipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#b6b6b6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor sensor:"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20sp"
+        android:textSize="18sp"
+        android:textColor="#b6b6b6"/>
+
+    <TextView
+        android:id="@+id/lblvalor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#b6b6b6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubicacion sensor:"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20sp"
+        android:textSize="18sp"
+        android:textColor="#b6b6b6"/>
+
+    <TextView
+        android:id="@+id/lblubicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubicacion"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#b6b6b6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha registro:"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20sp"
+        android:textSize="18sp"
+        android:textColor="#b6b6b6"/>
+
+    <TextView
+        android:id="@+id/lblfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#b6b6b6"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Observacion:"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20sp"
+        android:textSize="18sp"
+        android:textColor="#b6b6b6"/>
+
+    <EditText
+        android:id="@+id/lblobserv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#b6b6b6"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnDiscard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="45dp"
+            android:background="#dc3545"
+            android:text="descartar"
+            android:textColor="#ffffff"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:text="Guardar"
+            android:background="#5a595a"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
